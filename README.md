@@ -12,13 +12,14 @@ Requirements
 ------------
 
 * jzmq
-* tigase libs (symlink "tigase-server" to a tigase distribution)
+* tigase 5.2.0 beta3 (or later) with patch: http://andbit.net/diffs/tigase_vhost_comps2.diff
 
 Build
 -----
 
-Just run ant:
+Create a symlink "tigase-server" that points to a tigase distribution, then run ant:
 
+    ln -s /path/to/tigase tigase-server
     ant
 
 This will give you build/jar/tigase-zmq.jar, which should be copied into your tigase jars directory.
