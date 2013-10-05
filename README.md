@@ -1,5 +1,9 @@
 Tigase ZeroMQ Gateway
-=====================
+---------------------
+Date: October 5th, 2013
+Authors: Justin Karneges <justin@fanout.io>
+Mailing List: http://lists.fanout.io/listinfo.cgi/fanout-users-fanout.io
+License: MIT
 
 Routes XMPP stanzas between Tigase and ZeroMQ sockets.
 
