@@ -12,7 +12,7 @@ Requirements
 ------------
 
 * jzmq
-* tigase 5.2.0 beta3 (or later) with patch: http://andbit.net/diffs/tigase_vhost_comps2.diff
+* tigase 5.2.0 prerelease (git rev 0658c5e or later)
 
 Build
 -----
