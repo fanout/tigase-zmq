@@ -36,6 +36,7 @@ import tigase.xmpp.JID;
 import tigase.server.AbstractMessageReceiver;
 import tigase.server.Packet;
 import tigase.server.DisableDisco;
+import tigase.conf.ConfigurationException;
 import org.zeromq.ZMQ;
 
 public class ZmqRouter extends AbstractMessageReceiver implements DisableDisco
@@ -132,6 +133,7 @@ public class ZmqRouter extends AbstractMessageReceiver implements DisableDisco
 
 	@Override
 	public void setProperties(Map<String, Object> props)
+		throws ConfigurationException
 	{
 		super.setProperties(props);
 
